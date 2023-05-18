@@ -61,6 +61,7 @@ def main(): #main metodu olusturulur
     while True: #kullanicidan ilgili degerler alinir, degerlerdeki bosluklar silinir.
        
         print("Lutfen giris yaparken Turkce harf KULLANMAYINIZ!")
+        print("Lutfen kucuk harfle giris yapiniz")
         magaza_adi = input("Magaza Adi: ").strip()
         satici_adi = input("Satici Adi: ").strip()
         satici_cinsi = input("Satis Yapilan Urunun Cinsi: ").strip()
