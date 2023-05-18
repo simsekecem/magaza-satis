@@ -53,7 +53,7 @@ class Magaza: #Magaza sinifi olusturuldu
 
     def __str__(self): #magazalari, saticilari ve toplam satis tutarlarini ekrana yazdirmak icin metod olusturuldu
         satici, magaza = Magaza.magaza_satis_tutar({self.get_magaza_adi(): self}) #magaza_satis_tutar metodu cagrilip bulunan degerler ilgili degiskenlere atanir
-        return (f"Magaza adi: {self.get_magaza_adi()}, Saticilar ve satis toplamlari : {satici}, Magaza toplami : {magaza}") #ekrana yazdirilir
+        return (f"Magaza adi: {self.get_magaza_adi()}, Magaza toplami : {magaza}, Saticilar ve satis toplamlari : {satici}") #ekrana yazdirilir
 
 
 def main(): #main metodu olusturulur
