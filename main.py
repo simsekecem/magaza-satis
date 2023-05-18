@@ -58,12 +58,12 @@ class Magaza: #Magaza sinifi olusturuldu
 
 def main(): #main metodu olusturulur
     satislar = {} #satislar sozlugu olusturulur
-    while True: #kullanicidan ilgili degerler alinir, degerlerdeki bosluklar silinir ve harfler kucultulur.
-        #boylece bosluga ve buyuk/kucuk harfe duyarlı olmayan degerler elde edilir
+    while True: #kullanicidan ilgili degerler alinir, degerlerdeki bosluklar silinir.
+       
         print("Lutfen giris yaparken Turkce harf KULLANMAYINIZ!")
-        magaza_adi = input("Magaza Adi: ").strip().lower()
-        satici_adi = input("Satici Adi: ").strip().lower()
-        satici_cinsi = input("Satis Yapilan Urunun Cinsi: ").strip().lower()
+        magaza_adi = input("Magaza Adi: ").strip()
+        satici_adi = input("Satici Adi: ").strip()
+        satici_cinsi = input("Satis Yapilan Urunun Cinsi: ").strip()
         tutar = float(input("Satis Tutari: "))
 
         if magaza_adi.strip() not in satislar: #magaza adi satislar sozlugunde yoksa yeni bir magaza olusturulur ve sozluge atanir
